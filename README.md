@@ -53,7 +53,7 @@ dotnet build
 ```
 dotnet watch run
 ```
-Caso algo ocorra de errado, fique a vontade para entrar em contato: (email para contato)[emanuelsantossouzajesus@gmail.com]
+Caso algo ocorra de errado, fique a vontade para entrar em contato: [emanuelsantossouzajesus@gmail.com]
 
 ## 🤝 Colaboradores
 
