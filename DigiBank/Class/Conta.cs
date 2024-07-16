@@ -1,10 +1,5 @@
 ﻿using DigiBank.Contract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace DigiBank.Class
 {
@@ -36,7 +31,6 @@ namespace DigiBank.Class
             {
                 DateTime dataAtual = DateTime.Now;
                 this.Movimentacoes.Add(new Extrato(dataAtual, "Deposito", -saida));
-                this.SaldoConta += saida;
 
                 this.SaldoConta = this.SaldoConta - saida;
                 return true;

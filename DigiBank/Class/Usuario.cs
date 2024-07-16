@@ -34,10 +34,5 @@ namespace DigiBank.Class
                 return  false;
             }
         }
-
-        public static implicit operator List<object>(Usuario v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
